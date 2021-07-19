@@ -80,7 +80,7 @@ rule CheckValues "Check the default values" salience 10 {
             panic(err)
         }
 
-    println(myFact.WhatToSay)
+    println("myFact.WhatToSay = " + myFact.WhatToSay)
 
     return C.CString(myFact.WhatToSay)
 }

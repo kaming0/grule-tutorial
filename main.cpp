@@ -7,7 +7,7 @@ int main()
 {
     cout << "C++ says: calling GRuleTutorial" << endl;
     std::string str = GRuleTutorial();
-    cout << str << endl;
+    cout << "GRuleTutorial returned: " + str << endl;
     return 0;
 }
 
